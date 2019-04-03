@@ -14,8 +14,10 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
-z = x + int(y) # ==> z = 12
-print(z) # ==> 12
+# z = x + int(y) # ==> z = 12
+# print(z) # ==> 12
+# remove the need for extrenuous variables
+print(x + int(y)) # combine and inline the function
 
 
 # Write a print statement that combines x + y into the string value 57
